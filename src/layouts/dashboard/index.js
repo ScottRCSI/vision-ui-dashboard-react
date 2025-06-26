@@ -176,8 +176,8 @@ function Dashboard() {
   <Grid item xs={12} md={6} xl={3}>
     <MiniStatisticsCard
       title={{ text: "Budget Variance" }}
-      count="-$50,000"
-      percentage={{ color: "error", text: "Over Budget" }}
+      count="-$10,000"
+      percentage={{ color: "warning", text: "On Track" }}
       icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
     />
   </Grid>
@@ -193,7 +193,7 @@ function Dashboard() {
   </Grid>
   <Grid item xs={12} md={6} xl={3}>
     <MiniStatisticsCard
-      title={{ text: " MH 340B Coalition summer" }}
+      title={{ text: "MH 340B Coalition summer" }}
       count="Completed"
       percentage={{ color: "success", text: "100% complete" }}
       icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
@@ -212,7 +212,7 @@ function Dashboard() {
         <VuiBox mb={3}>
           <Grid container spacing="18px">
             <Grid item xs={12} lg={12} xl={5}>
-              <WelcomeScott />
+              <WelcomeMark />
             </Grid>
             <Grid item xs={12} lg={6} xl={3}>
               <SatisfactionRate />
