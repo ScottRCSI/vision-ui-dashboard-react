@@ -168,7 +168,7 @@ function Dashboard() {
   <Grid item xs={12} md={6} xl={3}>
     <MiniStatisticsCard
       title={{ text: "Remaining Budget" }}
-      count="$200,000"
+      count="$400,000"
       percentage={{ color: "info", text: "Available" }}
       icon={{ color: "info", component: <IoWallet size="22px" color="white" /> }}
     />
@@ -185,7 +185,7 @@ function Dashboard() {
   {/* Workfront Project Tracking */}
   <Grid item xs={12} md={6} xl={3}>
     <MiniStatisticsCard
-      title={{ text: "Project Alpha" }}
+      title={{ text: "MRx Sales Toolkit" }}
       count="In Progress"
       percentage={{ color: "warning", text: "75% complete" }}
       icon={{ color: "info", component: <IoIosRocket size="22px" color="white" /> }}
@@ -193,7 +193,7 @@ function Dashboard() {
   </Grid>
   <Grid item xs={12} md={6} xl={3}>
     <MiniStatisticsCard
-      title={{ text: "Project Beta" }}
+      title={{ text: " MH 340B Coalition summer" }}
       count="Completed"
       percentage={{ color: "success", text: "100% complete" }}
       icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
@@ -201,9 +201,9 @@ function Dashboard() {
   </Grid>
   <Grid item xs={12} md={6} xl={3}>
     <MiniStatisticsCard
-      title={{ text: "Project Gamma" }}
-      count="Not Started"
-      percentage={{ color: "error", text: "0% complete" }}
+      title={{ text: "QTR Q2" }}
+      count="In Progress"
+      percentage={{ color: "warning", text: "20% complete" }}
       icon={{ color: "info", component: <IoBuild size="22px" color="white" /> }}
     />
   </Grid>
@@ -212,7 +212,7 @@ function Dashboard() {
         <VuiBox mb={3}>
           <Grid container spacing="18px">
             <Grid item xs={12} lg={12} xl={5}>
-              <WelcomeMark />
+              <WelcomeScott />
             </Grid>
             <Grid item xs={12} lg={6} xl={3}>
               <SatisfactionRate />
