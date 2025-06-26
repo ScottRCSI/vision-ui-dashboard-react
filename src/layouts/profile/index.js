@@ -99,26 +99,26 @@ function Overview() {
           >
             <ProfileInfoCard
               title="profile information"
-              description="Hi, I’m Mark Johnson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+              description="Hi, I’m Scott Reitzel, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
               info={{
-                fullName: "Mark Johnson",
-                mobile: "(44) 123 1234 123",
-                email: "mark@simmmple.com",
+                fullName: "Scott Reitzel",
+                mobile: "(703) 505 7085",
+                email: "scott.reitzel@mckesson.com",
                 location: "United States",
               }}
               social={[
                 {
-                  link: "https://www.facebook.com/CreativeTim/",
+                  link: "https://www.facebook.com/macrohelix/",
                   icon: <FacebookIcon />,
                   color: "facebook",
                 },
                 {
-                  link: "https://twitter.com/creativetim",
+                  link: "https://twitter.com/mckesson",
                   icon: <TwitterIcon />,
                   color: "twitter",
                 },
                 {
-                  link: "https://www.instagram.com/creativetimofficial/",
+                  link: "https://www.instagram.com/scottreitzel/",
                   icon: <InstagramIcon />,
                   color: "instagram",
                 },
@@ -148,7 +148,7 @@ function Overview() {
                     image={profile1}
                     label="project #2"
                     title="modern"
-                    description="As Uber works through a huge amount of internal management turmoil."
+                    description="PPCS Deployment"
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -156,10 +156,10 @@ function Overview() {
                       label: "VIEW ALL",
                     }}
                     authors={[
-                      { image: team1, name: "Elena Morison" },
-                      { image: team2, name: "Ryan Milly" },
-                      { image: team3, name: "Nick Daniel" },
-                      { image: team4, name: "Peterson" },
+                      { image: team1, name: "Tiz Gill" },
+                      { image: team2, name: "Bill DeRos" },
+                      { image: team3, name: "Paul Neumann" },
+                      { image: team4, name: "Abe Reitzel" },
                     ]}
                   />
                 </Grid>
@@ -168,7 +168,7 @@ function Overview() {
                     image={profile2}
                     label="project #1"
                     title="scandinavian"
-                    description="Music is something that every person has his or her own specific opinion about."
+                    description="Healthcare Today"
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -176,10 +176,8 @@ function Overview() {
                       label: "VIEW ALL",
                     }}
                     authors={[
-                      { image: team3, name: "Nick Daniel" },
-                      { image: team4, name: "Peterson" },
-                      { image: team1, name: "Elena Morison" },
-                      { image: team2, name: "Ryan Milly" },
+                      { image: team3, name: "Tiz Gill" },
+                  
                     ]}
                   />
                 </Grid>
@@ -188,7 +186,7 @@ function Overview() {
                     image={profile3}
                     label="project #3"
                     title="minimalist"
-                    description="Different people have different taste, and various types of music."
+                    description="MRx External Splash"
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -196,10 +194,8 @@ function Overview() {
                       label: "VIEW ALL",
                     }}
                     authors={[
-                      { image: team4, name: "Peterson" },
-                      { image: team3, name: "Nick Daniel" },
-                      { image: team2, name: "Ryan Milly" },
-                      { image: team1, name: "Elena Morison" },
+                      { image: team4, name: "Kristin Koslosky" },
+                
                     ]}
                   />
                 </Grid>
