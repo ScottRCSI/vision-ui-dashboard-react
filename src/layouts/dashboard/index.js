@@ -68,42 +68,147 @@ function Dashboard() {
     <DashboardLayout>
       <DashboardNavbar />
       <VuiBox py={3}>
-        <VuiBox mb={3}>
-          <Grid container spacing={3}>
-            <Grid item xs={12} md={6} xl={3}>
-              <MiniStatisticsCard
-                title={{ text: "today's money", fontWeight: "regular" }}
-                count="$53,000"
-                percentage={{ color: "success", text: "+55%" }}
-                icon={{ color: "info", component: <IoWallet size="22px" color="white" /> }}
-              />
-            </Grid>
-            <Grid item xs={12} md={6} xl={3}>
-              <MiniStatisticsCard
-                title={{ text: "today's users" }}
-                count="2,300"
-                percentage={{ color: "success", text: "+3%" }}
-                icon={{ color: "info", component: <IoGlobe size="22px" color="white" /> }}
-              />
-            </Grid>
-            <Grid item xs={12} md={6} xl={3}>
-              <MiniStatisticsCard
-                title={{ text: "new clients" }}
-                count="+3,462"
-                percentage={{ color: "error", text: "-2%" }}
-                icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
-              />
-            </Grid>
-            <Grid item xs={12} md={6} xl={3}>
-              <MiniStatisticsCard
-                title={{ text: "total sales" }}
-                count="$103,430"
-                percentage={{ color: "success", text: "+5%" }}
-                icon={{ color: "info", component: <FaShoppingCart size="20px" color="white" /> }}
-              />
-            </Grid>
-          </Grid>
-        </VuiBox>
+
+<Grid container spacing={3}>
+  {/* Brand Strategy */}
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Brand Awareness" }}
+      count="68%"
+      percentage={{ color: "success", text: "+4% vs last quarter" }}
+      icon={{ color: "info", component: <IoGlobe size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Brand Recall" }}
+      count="52%"
+      percentage={{ color: "success", text: "+6% vs last quarter" }}
+      icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Brand Perception" }}
+      count="Positive"
+      percentage={{ color: "success", text: "↑ Trust & Quality" }}
+      icon={{ color: "info", component: <IoIosRocket size="22px" color="white" /> }}
+    />
+  </Grid>
+
+  {/* Content Strategy */}
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Content Engagement" }}
+      count="18%"
+      percentage={{ color: "success", text: "+2% vs last month" }}
+      icon={{ color: "info", component: <FaShoppingCart size="20px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Content Reach" }}
+      count="15,000"
+      percentage={{ color: "success", text: "+10% vs last month" }}
+      icon={{ color: "info", component: <IoGlobe size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Top Performing Content" }}
+      count="Videos"
+      percentage={{ color: "success", text: "↑ Engagement" }}
+      icon={{ color: "info", component: <IoIosRocket size="22px" color="white" /> }}
+    />
+  </Grid>
+
+  {/* Media Strategy */}
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Campaign Reach" }}
+      count="25,000"
+      percentage={{ color: "success", text: "+12% vs last campaign" }}
+      icon={{ color: "info", component: <IoWallet size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Impressions" }}
+      count="120,000"
+      percentage={{ color: "success", text: "+8% vs last campaign" }}
+      icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Share of Voice" }}
+      count="32%"
+      percentage={{ color: "success", text: "+5% vs competitors" }}
+      icon={{ color: "info", component: <IoGlobe size="22px" color="white" /> }}
+    />
+  </Grid>
+
+  {/* Budget Tracking */}
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Total Budget" }}
+      count="$500,000"
+      percentage={{ color: "info", text: "Allocated" }}
+      icon={{ color: "info", component: <IoWallet size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Budget Utilization" }}
+      count="60%"
+      percentage={{ color: "warning", text: "On Track" }}
+      icon={{ color: "info", component: <IoBuild size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Remaining Budget" }}
+      count="$200,000"
+      percentage={{ color: "info", text: "Available" }}
+      icon={{ color: "info", component: <IoWallet size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Budget Variance" }}
+      count="-$50,000"
+      percentage={{ color: "error", text: "Over Budget" }}
+      icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
+    />
+  </Grid>
+
+  {/* Workfront Project Tracking */}
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Project Alpha" }}
+      count="In Progress"
+      percentage={{ color: "warning", text: "75% complete" }}
+      icon={{ color: "info", component: <IoIosRocket size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Project Beta" }}
+      count="Completed"
+      percentage={{ color: "success", text: "100% complete" }}
+      icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
+    />
+  </Grid>
+  <Grid item xs={12} md={6} xl={3}>
+    <MiniStatisticsCard
+      title={{ text: "Project Gamma" }}
+      count="Not Started"
+      percentage={{ color: "error", text: "0% complete" }}
+      icon={{ color: "info", component: <IoBuild size="22px" color="white" /> }}
+    />
+  </Grid>
+</Grid>
+
         <VuiBox mb={3}>
           <Grid container spacing="18px">
             <Grid item xs={12} lg={12} xl={5}>
