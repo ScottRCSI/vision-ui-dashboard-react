@@ -127,10 +127,10 @@ function Header() {
               })}
             >
               <VuiTypography variant="lg" color="white" fontWeight="bold">
-                Mark Johnson
+                Scott Reitzel
               </VuiTypography>
               <VuiTypography variant="button" color="text" fontWeight="regular">
-                mark@simmmple.com
+                Scott.Reitzel@mckesson.com
               </VuiTypography>
             </VuiBox>
           </Grid>
