@@ -41,10 +41,10 @@ const CarInformations = () => {
 			})}>
 			<VuiBox display='flex' flexDirection='column'>
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='6px'>
-					Car Informations
+					Strategy Health Report
 				</VuiTypography>
 				<VuiTypography variant='button' color='text' fontWeight='regular' mb='30px'>
-					Hello, Mark Johnson! Your Car is ready.
+					Hello, Scott! Your Report is ready.
 				</VuiTypography>
 				<Stack
 					spacing='24px'
@@ -91,7 +91,7 @@ const CarInformations = () => {
 								0h 58 min
 							</VuiTypography>
 							<VuiTypography color='text' variant='button' fontWeight='regular'>
-								Time to full charge
+								Brand Lift Trajectory
 							</VuiTypography>
 						</VuiBox>
 					</VuiBox>
@@ -124,7 +124,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Battery Health
+										Brand Health
 									</VuiTypography>
 									<VuiTypography
 										color='white'
@@ -197,7 +197,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Consumption
+										Budget Used
 									</VuiTypography>
 									<VuiTypography
 										color='white'
